@@ -1,0 +1,187 @@
+<template>
+  <v-card flat>
+    <v-card-text>
+      <v-container fluid>
+        <v-row>
+          <v-col>
+            <v-radio-group row v-model="kindupdate">
+              <div col>
+                人文
+                <v-radio
+                  label="文学・評論"
+                  color="red"
+                  value="文学・評論"
+                ></v-radio>
+                <v-radio
+                  label="人文・思想"
+                  value="人文・思想"
+                ></v-radio>
+                <v-radio
+                  label="社会・政治･法律"
+                  value="社会・政治･法律"
+                ></v-radio>
+                <v-radio
+                  label="ノンフィクション"
+                  value="ノンフィクション"
+                ></v-radio>
+                <v-radio
+                  label="歴史・地理"
+                  value="歴史・地理"
+                ></v-radio>
+                <v-radio
+                  label="ビジネス・経済"
+                  value="ビジネス・経済"
+                ></v-radio>
+                <v-radio
+                  label="投資・金融・会社経営"
+                  value="投資・金融・会社経営"
+                ></v-radio>
+              </div>
+              <div col>
+                科学
+                <v-radio
+                  label="科学・テクノロジー"
+                  value="科学・テクノロジー"
+                ></v-radio>
+                <v-radio
+                  label="医学・薬学・看護学・歯科学"
+                  value="医学・薬学・看護学・歯科学"
+                ></v-radio>
+                <v-radio
+                  label="コンピュータ・IT"
+                  value="コンピュータ・IT"
+                ></v-radio>
+                <v-radio
+                label="アート・建築・デザイン"
+                value="アート・建築・デザイン"
+                ></v-radio>
+              </div>
+              <div col>
+                 趣味
+                <v-radio
+                  label="趣味・実用"
+                  value="趣味・実用"
+                ></v-radio>
+                <v-radio
+                  label="スポーツ・アウトドア"
+                  value="スポーツ・アウトドア"
+                ></v-radio>
+                <v-radio
+                  label="資格・検定・就職"
+                  value="資格・検定・就職"
+                ></v-radio>
+                <v-radio
+                  label="暮らし・健康・子育て"
+                  value="暮らし・健康・子育て"
+                ></v-radio>
+                <v-radio
+                  label="旅行ガイド・マップ"
+                  value="旅行ガイド・マップ"
+                ></v-radio>
+              </div>
+              <div col>
+                学習
+                <v-radio
+                  label="語学・辞事典・年鑑"
+                  value="語学・辞事典・年鑑"
+                ></v-radio>
+                <v-radio
+                  label="英語学習"
+                  value="英語学習"
+                ></v-radio>
+                <v-radio
+                  label="教育・学参・受験"
+                  value="教育・学参・受験"
+                ></v-radio>
+                <v-radio
+                  label="絵本・児童書"
+                  value="絵本・児童書"
+                ></v-radio>
+              </div>
+              <div col>
+                エンタメ
+                <v-radio
+                  label="コミック"
+                  value="コミック"
+                ></v-radio>
+                <v-radio
+                  label="ライトノベル"
+                  value="ライトノベル"
+                ></v-radio>
+                <v-radio
+                  label="ボーイズラブ"
+                  value="ボーイズラブ"
+                ></v-radio>
+                <v-radio
+                  label="タレント写真集"
+                  value="タレント写真集"
+                ></v-radio>
+                <v-radio
+                  label="ゲーム攻略本"
+                  value="ゲーム攻略本"
+                ></v-radio>
+                <v-radio
+                  label="エンターテイメント"
+                  value="エンターテイメント"
+                ></v-radio>
+                <v-radio
+                  label="新書・文庫・ノベルス"
+                  value="新書・文庫・ノベルス"
+                ></v-radio>
+                <v-radio
+                  label="雑誌"
+                  value="雑誌"
+                ></v-radio>
+              </div>
+              <div col>
+                その他
+                <v-radio
+                  label="楽譜・スコア・音楽書"
+                  value="楽譜・スコア・音楽書"
+                ></v-radio>
+                <v-radio
+                  label="カレンダー・手帳"
+                  value="カレンダー・手帳"
+                ></v-radio>
+                <v-radio
+                  label="ポスター"
+                  value="ポスター"
+                ></v-radio>
+                <v-radio
+                  label="古本"
+                  value="古本"
+                ></v-radio>
+                <v-radio
+                  label="古書･希少本"
+                  value=""
+                ></v-radio>
+              </div>
+            </v-radio-group>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-card-text>
+  </v-card>
+</template>
+
+
+<script>
+export default {
+  data(){
+    return {
+      kindField: null
+    }
+  },
+  computed: {
+    kindupdate:{
+      get(){
+        return this.kindField
+      },
+      set(value){
+        this.$emit('update:kindField',value)
+      }
+    }
+  }
+}
+
+</script>

@@ -1,0 +1,78 @@
+{
+  "menus": {
+    "about": "サイトについて",
+    "products": "製品",
+    "price": "価格",
+    "contact": "お問合せ",
+    "company": "会社情報"
+  },
+  "pages": {
+    "signup": "会員登録",
+    "registration": "登録する",
+    "login": "ログイン",
+    "trial": "お試しログイン",
+    "log-in": "ログインする",
+    "trial-log-in": "お試しログインする",
+    "forget-password?": "パスワードを忘れた?",
+    "mail-address" : "メールアドレス",
+    "search":"検索",
+    "account": {
+      "name": "アカウント",
+      "login-user": "ログイン中のユーザー",
+      "settings": "アカウント設定",
+      "password": "パスワード変更",
+      "logout": "ログアウト"
+    },
+    "project": {
+      "id": {
+        "dashboard": "ダッシュボード",
+        "layouts": "レイアウト",
+        "pages": "ページ",
+        "components": "コンポーネント",
+        "settings": "設定",
+        "help": "ヘルプ"
+      }
+    }
+  },
+  "error": {
+    "Unauthorized": "認証に失敗しました",
+    "Forbidden": "アクセスが拒否されました",
+    "This page could not be found": "ページが見つかりません",
+    "Network Error": "ネットワークエラーが発生しました"
+  },
+  "kind": {
+    "literture":"文学・評論",
+	  "humanities":"人文・思想",
+	  "politics":"社会・政治",
+	  "nonfiction":"ノンフィクション",
+	  "history":"歴史・地理",
+	  "bussiness":"ビジネス・経済",
+	  "invest":"投資・金融・会社経営",
+    "language":"語学・辞典・年鑑",
+    "english":"英語学習",
+    "education":"教育・受験",
+    "children":"絵本・児童書",
+    "sience":"科学・テクノロジー",
+    "medical":"医学・薬学・看護学・歯科学",
+    "it":"コンピュータ・IT",
+    "art":"アート・建築・デザイン",
+    "comic":"コミック",
+    "lightnovel":"ライトノベル",
+    "boyslove":"ボーイズラブ",
+    "talent":"タレント写真集",
+    "game":"ゲーム攻略本",
+    "entertainment":"エンターテイメント",
+    "novel":"新書・文庫・ノベルス",
+    "magazine":"雑誌",
+    "hobby":"趣味・実用",
+    "sport":"スポーツ・アウトドア",
+    "work":"資格・検定・就職",
+    "life":"暮らし・健康・子育て",
+    "travel":"旅行ガイド・マップ",
+    "score":"楽譜・スコア・音楽書",
+    "calender":"カレンダー・手帳",
+    "poster":"ポスター",
+    "second":"古本",
+    "legacy":"古書･希少本"
+  }
+}

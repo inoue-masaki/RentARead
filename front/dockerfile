@@ -1,0 +1,25 @@
+FROM node:16.13.1-alpine
+
+ARG WORKDIR
+
+ENV HOME=app \
+    LANG=C.UTF-8 \
+    TZ=Asia/Tokyo \
+    HOST=0.0.0.0 \
+    NPM_CONFIG_PRODUCTION=false
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN apk update && \
+    apk upgrade && \
+    apk add --no-cache make gcc g++ && \
+    yarn --update python && \
+    yarn install
+
+COPY . .
+
+RUN yarn build
+
+CMD ["yarn", "run", "start"]
