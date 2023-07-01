@@ -12,19 +12,19 @@ http://rentaread.link
 (ゲストログインあります)
 
 #### トップページ
-https://github.com/inoue-masaki/rentaread/assets/62523279/c28a0fef-d156-4093-8cd4-b8341236432b
+https://github.com/inoue-masaki/RentARead/assets/62523279/f7950aa5-2422-48d5-b3dc-737212501820
 
-#### 本投稿
-https://github.com/inoue-masaki/rentaread/assets/62523279/c28a0fef-d156-4093-8cd4-b8341236432b
+#### 本出品
+https://github.com/inoue-masaki/RentARead/assets/62523279/4c58b48e-2e73-4f07-834d-4c3703030e01
 
 #### レビュー
-https://github.com/inoue-masaki/rentaread/assets/62523279/6dc06720-d5e7-45e0-ad2f-513fc01996dc
+https://github.com/inoue-masaki/RentARead/assets/62523279/3348988f-1d46-4ce2-9e68-b574edbf1bec
 
 #### レビュー投稿
-https://github.com/inoue-masaki/rentaread/assets/62523279/5373ca15-4cc7-434f-a3cd-a188ad188c22
+https://github.com/inoue-masaki/RentARead/assets/62523279/079f2bac-638b-42ba-8b1a-b4e20cf3b6f8
 
 #### インフラ構成図
-
+https://github.com/inoue-masaki/RentARead/assets/62523279/2ec87586-ab55-4bf2-9683-0a097799bfb8
 
 
 # 主な使用技術:
