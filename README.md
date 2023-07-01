@@ -12,19 +12,19 @@ http://rentaread.link
 (ゲストログインあります)
 
 #### トップページ
-https://github.com/inoue-masaki/RentARead/assets/62523279/f7950aa5-2422-48d5-b3dc-737212501820
+![main](https://github.com/inoue-masaki/RentARead/assets/62523279/f7950aa5-2422-48d5-b3dc-737212501820)
 
 #### 本出品
-https://github.com/inoue-masaki/RentARead/assets/62523279/4c58b48e-2e73-4f07-834d-4c3703030e01
+![exibit](https://github.com/inoue-masaki/RentARead/assets/62523279/4c58b48e-2e73-4f07-834d-4c3703030e01)
 
 #### レビュー
-https://github.com/inoue-masaki/RentARead/assets/62523279/3348988f-1d46-4ce2-9e68-b574edbf1bec
+![comment](https://github.com/inoue-masaki/RentARead/assets/62523279/3348988f-1d46-4ce2-9e68-b574edbf1bec)
 
 #### レビュー投稿
-https://github.com/inoue-masaki/RentARead/assets/62523279/079f2bac-638b-42ba-8b1a-b4e20cf3b6f8
+![push](https://github.com/inoue-masaki/RentARead/assets/62523279/079f2bac-638b-42ba-8b1a-b4e20cf3b6f8)
 
 #### インフラ構成図
-https://github.com/inoue-masaki/RentARead/assets/62523279/2ec87586-ab55-4bf2-9683-0a097799bfb8
+![inf](https://github.com/inoue-masaki/RentARead/assets/62523279/2ec87586-ab55-4bf2-9683-0a097799bfb8)
 
 
 # 主な使用技術:
@@ -52,7 +52,7 @@ https://github.com/inoue-masaki/RentARead/assets/62523279/2ec87586-ab55-4bf2-968
 - Axios
 
 
-# 当アプリは以下の機能を持っています:
+# 機能
 ### ユーザー機能
 新規登録 ログイン ログアウト
 
