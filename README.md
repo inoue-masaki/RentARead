@@ -7,7 +7,7 @@
 アプリはRalsAPI + NuxtのSPA構成です。
 Dockerを使用し、AWSにてインフラ構築 → CloudFormaitonにてIaC化しました。
 
-#### URL
+#### URL　（注意：コスト削減のため平日のみ作成しております。土日は一時削除しております繋がらなくなっています。申し訳ございません）
 http://rentaread.link
 (ゲストログインあります)
 
